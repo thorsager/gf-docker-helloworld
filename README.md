@@ -65,8 +65,8 @@ resource from you app like this:
 private String glbName;
 ```
 
-Say Hello
-=========
+Build it or pull it
+===================
 To run this example you simple build the app (`mvn package`), build the 
 docker image (`docker build -t hello-world .`) and run it.
 
@@ -81,3 +81,5 @@ System.property - Hello Jimbo.
 java:app/env.hello: - Hello Jimbo.
 env.hello: - Hello Jimbo.
 ```
+
+If you just want to run it.. pull it from https://hub.docker.com/r/thorsager/gf-docker-helloworld
