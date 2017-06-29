@@ -57,6 +57,7 @@ RUN asadmin --user=admin start-domain ${DOMAIN_NAME} && \
     rm /tmp/gf-resources.xml && \
     rm /tmp/glassfishpwd
 ```
+> The `PASSWORD` and `DOMAIN_NAME` variables are defined by the the [thorsager/glassfish](https://hub.docker.com/r/thorsager/glassfish/) image.
 
 When custom-resources are located in _server-scope_ you are able to access the 
 resource from you app like this:
