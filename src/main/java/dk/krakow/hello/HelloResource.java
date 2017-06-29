@@ -24,7 +24,7 @@ public class HelloResource {
     public String all() {
         String name = System.getProperty("HELLO");
         return "System.property - Hello "+(name==null ? "World" : name)+".\n"+
-               "java:app/env.hello: - Hello "+(this.appName==null ? "world" : this.appName)+".\n"+
-               "env.hello: - Hello "+(this.glbName==null ? "world" : this.glbName)+".";
+               "java:app/env.hello: - Hello "+this.appName+".\n"+
+               "env.hello: - Hello "+this.glbName+".";
     }
 }
