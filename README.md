@@ -24,7 +24,7 @@ Getting at the values
 First off you are able to access the values passed to GlassFish directly using 
 `System.properties`, like this:  
 ```java
-System.getProperty('MY_VAR_NAME');
+System.getProperty("HELLO");
 ```
 
 Secondly you can add a `glassfish-resources.xml` to you application with 
